@@ -9,7 +9,7 @@
 Classic Tetris project implemented with HTML5 Canvas and pure JavaScript. It includes features such as random piece generation, collision detection, rotation, deletion of entire rows, a scoring system, pause, reset, and a game over screen. Ideal for learning key concepts in game logic, animation with requestAnimationFrame, and matrix manipulation.
 ### _If you leave me some constructive feedback or a star ⭐, I would appreciate it._  
 
-[![img](./readme.png)](https://anyelycastillo.es/)
+[![img](./readme.png)](https://tetrisgamejavascript.netlify.app/)
 
 ## About me
 
