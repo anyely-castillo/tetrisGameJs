@@ -1,0 +1,38 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tetris en JavaScript</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="app">
+    <section id="start-screen">
+      <div class="start-content">
+        <h1>🎮 Tetris JS</h1>
+        <p>Haz click aquí para jugar</p>
+      </div>
+    </section>
+    <section> <section id="pause-screen" style="display: none;">
+      <div class="start-content">
+        <h2>👾 Pause</h2>
+        <p>Pulsa barra espaciadora para continuar...</p>
+      </div>
+    </section>
+    <section id="game-over-screen" style="display: none;">
+      <div class="game-over-content">
+        <h2>❌ GAME OVER</h2>
+        <p>Tu puntuación final es: <span id="final-score">0</span></p>
+        <button id="restart-btn">Restart</button>
+      </div>
+    </section>
+    <canvas id="tetris-canvas"></canvas>  
+    <div id="hud">
+      <strong>Puntuación: <span id="score">0</span></strong>
+      <strong>Nivel: <span id="level">1</span></strong>
+      <button id="pause-btn">Pause</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
